@@ -54,7 +54,10 @@ body{
     font-size: 24px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid #22d4fd;
@@ -65,4 +68,9 @@ body{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+    padding: 3%;
 }
