@@ -12,19 +12,31 @@ body{
     color: #000000;
 }
 
-.titulo-destaque{
-    color: #000000;
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
 }
 
 .apresentacao{
-    padding: 8% 15%;
+    padding: 9% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 650px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -33,6 +45,10 @@ body{
 .apresentacao__conteudo_titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque{
+    color: #000000;
 }
 
 .apresentacao__conteudo_texto{
